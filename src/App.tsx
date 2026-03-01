@@ -30,7 +30,7 @@ const staggerContainer = {
 };
 
 export default function App() {
-  const whatsappLink = "https://wa.me/5511999999999?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta.";
+  const whatsappLink = "https://wa.me/5547992305202?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
     <div className="min-h-screen overflow-x-hidden">
@@ -39,7 +39,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="text-2xl font-serif font-bold text-[var(--color-primary)]">
-              Dra. Ana Silva
+              Pr Souza e Deize
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#sobre" className="text-stone-600 hover:text-[var(--color-primary)] transition-colors">Sobre</a>
@@ -78,7 +78,7 @@ export default function App() {
             </motion.div>
             
             <motion.h1 variants={fadeIn} className="text-5xl lg:text-6xl font-serif font-bold text-stone-900 leading-[1.1]">
-              Reencontre seu <span className="text-[var(--color-secondary)] italic">equilíbrio</span> emocional.
+              Nossa missão é <span className="text-[var(--color-secondary)] italic">fazer a vontade</span> do nosso Senhor Jesus.
             </motion.h1>
             
             <motion.p variants={fadeIn} className="text-lg text-stone-600 max-w-lg leading-relaxed">
@@ -125,7 +125,7 @@ export default function App() {
             <div className="absolute inset-0 bg-[var(--color-secondary)]/10 rounded-[2rem] rotate-3 transform"></div>
             <img 
               src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-              alt="Dra. Ana Silva Psicóloga" 
+              alt="Pr Souza e Deize" 
               className="relative rounded-[2rem] shadow-2xl w-full object-cover aspect-[4/5]"
               referrerPolicy="no-referrer"
             />
@@ -200,7 +200,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Sobre a Dra. Ana Silva</h2>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Sobre Pr Souza e Deize</h2>
               <div className="space-y-4 text-stone-200 text-lg leading-relaxed mb-8">
                 <p>
                   Com mais de 10 anos de prática clínica, sou especialista em Terapia Cognitivo-Comportamental (TCC). 
@@ -238,7 +238,7 @@ export default function App() {
                   <div className="absolute inset-0 border-2 border-[var(--color-secondary)]/30 rounded-full animate-[spin_10s_linear_infinite]"></div>
                   <img 
                     src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                    alt="Retrato Dra Ana" 
+                    alt="Retrato Pr Souza e Deize" 
                     className="absolute inset-4 w-[calc(100%-2rem)] h-[calc(100%-2rem)] object-cover rounded-full border-4 border-white/20"
                     referrerPolicy="no-referrer"
                   />
@@ -258,7 +258,7 @@ export default function App() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                text: "A Dra. Ana mudou minha vida. Me sinto muito mais leve e capaz de lidar com meus desafios diários.",
+                text: "A Pr Souza e Deize mudou minha vida. Me sinto muito mais leve e capaz de lidar com meus desafios diários.",
                 author: "Mariana S.",
                 role: "Empresária"
               },
@@ -372,7 +372,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-stone-950 text-stone-500 py-8 text-center text-sm">
-        <p>© {new Date().getFullYear()} Dra. Ana Silva. Todos os direitos reservados.</p>
+        <p>© {new Date().getFullYear()} Pr Souza e Deize. Todos os direitos reservados.</p>
         <p className="mt-2">CRP 06/12345</p>
       </footer>
 
